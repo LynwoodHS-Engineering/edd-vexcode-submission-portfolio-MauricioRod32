@@ -12,14 +12,15 @@
 from vex import *
 
 # Begin project code
-whiletrue;
-pass
-    if limit_switch_d.pressing() and limit_switch_e.pressing()
+while True:
+
+ if limit_switch_d.pressing() and limit_switch_e.pressing():
         pass
         led_yellow.on()
         led_green.off
 
-        else:
-            pass 
-            led_green.on()
-            led_yellow.off()
+else:
+
+        pass
+        led_green.on()
+        led_yellow.off()
