@@ -1,0 +1,33 @@
+# ------------------------------------------
+#
+# Project:      VEXcode Project
+# Author:       VEX
+# Created:
+# Description:  VEXcode V5 Python Project
+#
+# ------------------------------------------
+
+# Library import
+
+# Begin project code
+motor_close.set_velocity(15,PERCENT)
+motor_close.spin(REVERSE)
+wait(2,SECONDS)
+motor_close.stop()
+wait(1,SECONDS)
+motor_up.set_velocity(40,PERCENT)
+motor_up.spin(REVERSE)
+wait(3,SECONDS)
+motor_up.stop()
+wait(2,SECONDS)
+motor_1.set_velocity(25,PERCENT)
+motor_1.spin_to_position(-400, DEGREES)
+wait(1,SECONDS)
+motor_up.set_velocity(60,PERCENT)
+motor_up.spin(FORWARD)
+wait(2,SECONDS)
+motor_close.set_velocity(60,PERCENT)
+motor_close.spin(FORWARD)
+wait(2,SECONDS)
+motor_up.set_velocity(60,PERCENT)
+motor_up.spin(REVERSE)
